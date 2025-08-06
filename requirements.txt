@@ -1,0 +1,6 @@
+Flask
+nltk
+scikit-learn
+numpy
+gunicorn
+waitress

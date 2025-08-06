@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["Goodbye! Have a great day.", "See you soon!"]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["How do I get a refund?", "I want to return my order", "Refund request"],
+      "responses": ["To request a refund, go to your orders, select the item and click 'Request Refund'."]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my package", "Order not delivered"],
+      "responses": ["Please provide your order ID to check the status."]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": ["Payment failed", "I was charged twice", "Issue with payment"],
+      "responses": ["Sorry to hear that. Please contact our billing support with your payment ID."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["Sorry, I didn't understand that. Can you rephrase it?"]
+    }
+  ]
+}
